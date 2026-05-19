@@ -5,7 +5,7 @@ function Home() {
   const [items, setItems] = useState([]);
   const [newProductName, setNewProductName] = useState('');
   const [editingProduct, setEditingProduct] = useState(null);
-  const apiUrl = 'https://products-api-dotnet-git-aleksanderczaj-dev.apps.rm1.0a51.p1.openshiftapps.com/api/products';
+  const apiUrl = 'https://products-api-backend-aleksanderczaj-dev.apps.rm1.0a51.p1.openshiftapps.com/api/products';
 
   const getProducts = () => {
     fetch(apiUrl)
